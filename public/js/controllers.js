@@ -28,8 +28,8 @@ angular.module('myApp.controllers', []).
     $scope.d6chkd = true;
     $scope.d7chkd = true;
 
-    $rootScope.deviceName = "elroy";
-    $scope.deviceName = "elroy";
+    $rootScope.deviceName = "core1";
+    $scope.deviceName = "core1";
     $scope.response = "";
 
     // Digital Outputs call this function
