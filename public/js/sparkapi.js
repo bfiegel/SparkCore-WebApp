@@ -223,7 +223,7 @@ function sparkGET(data) {
     var options = {
         host: 'api.sprk.io',
         port: 80,
-        path: '/v1/devices/elroy -d ' + data + ' -H Content-Type: application/json'
+        path: '/v1/devices/' + MY_DEVICE_NAME +' -d ' + data + ' -H Content-Type: application/json'
     };
     var data;
     // Make the API call and parse the JSON result

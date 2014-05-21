@@ -83,7 +83,7 @@ function Log (msg) {
 function startKeepAlive() {
     setInterval(function() {
         var options = {
-            host: 'sparkcore.herokuapp.com',
+            host: 'buoyant-sparkcore.herokuapp.com',
             port: 80,
             path: '/ping'
         };
